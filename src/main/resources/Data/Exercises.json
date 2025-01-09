@@ -1,0 +1,302 @@
+[
+    {
+        "id": 1,
+        "name": "Bench Press",
+        "type": "COMPOUND",
+        "description": "A compound exercise for the chest.",
+        "muscleGroup": {
+            "id": 1,
+            "name": "Chest"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Deadlift",
+        "type": "COMPOUND",
+        "description": "A compound exercise for the back and legs.",
+        "muscleGroup": {
+            "id": 2,
+            "name": "Back"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Squat",
+        "type": "COMPOUND",
+        "description": "A compound exercise for the legs.",
+        "muscleGroup": {
+            "id": 3,
+            "name": "Legs"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Bicep Curl",
+        "type": "ISOLATION",
+        "description": "An isolation exercise for the biceps.",
+        "muscleGroup": {
+            "id": 4,
+            "name": "Biceps"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Shoulder Press",
+        "type": "COMPOUND",
+        "description": "A compound exercise for the shoulders.",
+        "muscleGroup": {
+            "id": 6,
+            "name": "Shoulders"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Crunches",
+        "type": "ISOLATION",
+        "description": "An isolation exercise for the abs.",
+        "muscleGroup": {
+            "id": 7,
+            "name": "Abs"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Pull-Up",
+        "type": "COMPOUND",
+        "description": "A compound exercise for the back.",
+        "muscleGroup": {
+            "id": 2,
+            "name": "Back"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Tricep Extension",
+        "type": "ISOLATION",
+        "description": "An isolation exercise for the triceps.",
+        "muscleGroup": {
+            "id": 5,
+            "name": "Triceps"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Leg Press",
+        "type": "COMPOUND",
+        "description": "A compound exercise for the legs.",
+        "muscleGroup": {
+            "id": 3,
+            "name": "Legs"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Lateral Raise",
+        "type": "ISOLATION",
+        "description": "An isolation exercise for the shoulders.",
+        "muscleGroup": {
+            "id": 6,
+            "name": "Shoulders"
+        }
+    },
+    {
+        "id": 11,
+        "name": "Plank",
+        "type": "ISOLATION",
+        "description": "An isolation exercise for the abs.",
+        "muscleGroup": {
+            "id": 7,
+            "name": "Abs"
+        }
+    },
+    {
+        "id": 12,
+        "name": "Incline Bench Press",
+        "type": "COMPOUND",
+        "description": "A compound exercise for the upper chest.",
+        "muscleGroup": {
+            "id": 1,
+            "name": "Chest"
+        }
+    },
+    {
+        "id": 13,
+        "name": "Bent Over Row",
+        "type": "COMPOUND",
+        "description": "A compound exercise for the back.",
+        "muscleGroup": {
+            "id": 2,
+            "name": "Back"
+        }
+    },
+    {
+        "id": 14,
+        "name": "Leg Curl",
+        "type": "ISOLATION",
+        "description": "An isolation exercise for the legs.",
+        "muscleGroup": {
+            "id": 3,
+            "name": "Legs"
+        }
+    },
+    {
+        "id": 15,
+        "name": "Hammer Curl",
+        "type": "ISOLATION",
+        "description": "An isolation exercise for the biceps.",
+        "muscleGroup": {
+            "id": 4,
+            "name": "Biceps"
+        }
+    },
+    {
+        "id": 16,
+        "name": "Front Raise",
+        "type": "ISOLATION",
+        "description": "An isolation exercise for the shoulders.",
+        "muscleGroup": {
+            "id": 6,
+            "name": "Shoulders"
+        }
+    },
+    {
+        "id": 17,
+        "name": "Russian Twist",
+        "type": "ISOLATION",
+        "description": "An isolation exercise for the abs.",
+        "muscleGroup": {
+            "id": 7,
+            "name": "Abs"
+        }
+    },
+    {
+        "id": 18,
+        "name": "Chest Fly",
+        "type": "ISOLATION",
+        "description": "An isolation exercise for the chest.",
+        "muscleGroup": {
+            "id": 1,
+            "name": "Chest"
+        }
+    },
+    {
+        "id": 19,
+        "name": "Lat Pulldown",
+        "type": "COMPOUND",
+        "description": "A compound exercise for the back.",
+        "muscleGroup": {
+            "id": 2,
+            "name": "Back"
+        }
+    },
+    {
+        "id": 20,
+        "name": "Leg Extension",
+        "type": "ISOLATION",
+        "description": "An isolation exercise for the legs.",
+        "muscleGroup": {
+            "id": 3,
+            "name": "Legs"
+        }
+    },
+    {
+        "id": 21,
+        "name": "Tricep Dip",
+        "type": "COMPOUND",
+        "description": "A compound exercise for the triceps.",
+        "muscleGroup": {
+            "id": 5,
+            "name": "Triceps"
+        }
+    },
+    {
+        "id": 22,
+        "name": "Arnold Press",
+        "type": "COMPOUND",
+        "description": "A compound exercise for the shoulders.",
+        "muscleGroup": {
+            "id": 6,
+            "name": "Shoulders"
+        }
+    },
+    {
+        "id": 23,
+        "name": "Leg Raise",
+        "type": "ISOLATION",
+        "description": "An isolation exercise for the abs.",
+        "muscleGroup": {
+            "id": 7,
+            "name": "Abs"
+        }
+    },
+    {
+        "id": 24,
+        "name": "Cable Crossover",
+        "type": "ISOLATION",
+        "description": "An isolation exercise for the chest.",
+        "muscleGroup": {
+            "id": 1,
+            "name": "Chest"
+        }
+    },
+    {
+        "id": 25,
+        "name": "Seated Row",
+        "type": "COMPOUND",
+        "description": "A compound exercise for the back.",
+        "muscleGroup": {
+            "id": 2,
+            "name": "Back"
+        }
+    },
+    {
+        "id": 26,
+        "name": "Calf Raise",
+        "type": "ISOLATION",
+        "description": "An isolation exercise for the legs.",
+        "muscleGroup": {
+            "id": 3,
+            "name": "Legs"
+        }
+    },
+    {
+        "id": 27,
+        "name": "Concentration Curl",
+        "type": "ISOLATION",
+        "description": "An isolation exercise for the biceps.",
+        "muscleGroup": {
+            "id": 4,
+            "name": "Biceps"
+        }
+    },
+    {
+        "id": 28,
+        "name": "Upright Row",
+        "type": "COMPOUND",
+        "description": "A compound exercise for the shoulders.",
+        "muscleGroup": {
+            "id": 6,
+            "name": "Shoulders"
+        }
+    },
+    {
+        "id": 29,
+        "name": "Bicycle Crunch",
+        "type": "ISOLATION",
+        "description": "An isolation exercise for the abs.",
+        "muscleGroup": {
+            "id": 7,
+            "name": "Abs"
+        }
+    },
+    {
+        "id": 30,
+        "name": "Push-Up",
+        "type": "COMPOUND",
+        "description": "A compound exercise for the chest.",
+        "muscleGroup": {
+            "id": 1,
+            "name": "Chest"
+        }
+    }
+]

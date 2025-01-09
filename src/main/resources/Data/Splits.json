@@ -1,0 +1,47 @@
+{
+    "id": 1,
+    "workoutId": 1,
+    "exerciseLogs": [
+        {
+            "exerciseId": 1,
+            "sets": [
+                {
+                    "setNumber": 1,
+                    "reps": 10,
+                    "weight": 100
+                },
+                {
+                    "setNumber": 2,
+                    "reps": 8,
+                    "weight": 110
+                },
+                {
+                    "setNumber": 3,
+                    "reps": 6,
+                    "weight": 120
+                }
+            ]
+        },
+        {
+            "exerciseId": 2,
+            "sets": [
+                {
+                    "setNumber": 1,
+                    "reps": 5,
+                    "weight": 200
+                },
+                {
+                    "setNumber": 2,
+                    "reps": 5,
+                    "weight": 210
+                },
+                {
+                    "setNumber": 3,
+                    "reps": 5,
+                    "weight": 220
+                }
+            ]
+        }
+    ],
+    "date": "2023-10-01"
+}
