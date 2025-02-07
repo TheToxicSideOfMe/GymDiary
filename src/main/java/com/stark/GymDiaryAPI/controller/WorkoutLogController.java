@@ -21,34 +21,18 @@ import com.stark.GymDiaryAPI.service.WorkoutLogService;
 
 
 @RestController
-@RequestMapping("/api/workouts/{workoutId}/logs")
 public class WorkoutLogController {
     @Autowired
     private WorkoutLogService workoutLogService;
 
-    @PostMapping
+    @PostMapping("/api/workouts/{workoutId}/logs")
     public ResponseEntity<WorkoutLog> createLog(@PathVariable String workoutId, @RequestBody WorkoutLog workoutLog){
         return new ResponseEntity<WorkoutLog>(workoutLogService.createLog(workoutId,workoutLog),HttpStatus.CREATED);
     }
-
-    @GetMapping
-    public ResponseEntity<List<WorkoutLog>> getWorkoutLogs(@PathVariable String workoutId){
-        return new ResponseEntity<List<WorkoutLog>>(workoutLogService.getWorkoutLogs(workoutId),HttpStatus.OK);
+    @GetMapping("/api/logs")
+    public ResponseEntity<List<WorkoutLog>> getAllLogs(){
+        return new ResponseEntity<List<WorkoutLog>>(workoutLogService.getAllLogs(),HttpStatus.OK);
     }
 
-    @GetMapping("/{logId}")
-    public ResponseEntity<WorkoutLog> getLogById(@PathVariable String logId){
-        return new ResponseEntity <WorkoutLog>(workoutLogService.getLogById(logId),HttpStatus.OK);
-    }
-
-    // Update a log
-    @PutMapping("/{logId}")
-    public ResponseEntity<WorkoutLog> updateLog(@PathVariable String logId, @RequestBody WorkoutLog workoutLog){
-        return new ResponseEntity<WorkoutLog>(workoutLogService.updateLog(logId,workoutLog),HttpStatus.ACCEPTED);
-    }
-
-    @DeleteMapping("/{logId}")
-    public ResponseEntity<Boolean> deleteLog(@PathVariable String logId){
-        return new ResponseEntity<Boolean>(workoutLogService.deleteLog(logId),HttpStatus.OK);
-    }
+    
 }
