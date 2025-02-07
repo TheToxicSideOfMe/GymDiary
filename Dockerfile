@@ -4,18 +4,16 @@ FROM openjdk:17-jdk-slim
 # Set the working directory in the container
 WORKDIR /app
 
-# Ensure mvnw has executable permissions
-RUN chmod +x ./mvnw
-
-# Copy the Maven executable to the image
+# Copy Maven wrapper
 COPY mvnw .
 COPY .mvn .mvn
 
-# Copy the pom.xml file
+# Copy project files
 COPY pom.xml .
-
-# Copy the source code
 COPY src ./src
+
+# Make mvnw executable
+RUN chmod +x mvnw
 
 # Build the application
 RUN ./mvnw package -DskipTests
@@ -23,6 +21,5 @@ RUN ./mvnw package -DskipTests
 # Expose the port the app runs on
 EXPOSE 8080
 
-# Run the jar file
-ENTRYPOINT ["java","-jar","target/GymDiary.jar"]
-
+# Run the jar file (update with your actual jar name)
+ENTRYPOINT ["java","-jar","target/GymDiaryAPI.jar"]
