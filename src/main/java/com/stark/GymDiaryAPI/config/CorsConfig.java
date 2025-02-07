@@ -12,11 +12,10 @@ public class CorsConfig {
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/**") // Allow all endpoints
-                        .allowedOrigins("http://localhost:5173") // Allow your React app
-                        .allowedMethods("GET", "POST", "PUT", "DELETE", "PATCH") // HTTP methods
-                        .allowedHeaders("*") // Allow all headers
-                        .allowCredentials(true); // If you need cookies/auth
+                registry.addMapping("/**")
+                    .allowedOrigins("https://gymddiary-frontend.onrender.com/")  // Be specific with your frontend URL
+                    .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
+                    .allowedHeaders("*");
             }
         };
     }
