@@ -21,5 +21,5 @@ RUN ./mvnw package -DskipTests
 # Expose the port the app runs on
 EXPOSE 8080
 
-# Run the jar file (update with your actual jar name)
-ENTRYPOINT ["java","-jar","target/GymDiaryAPI.jar"]
+# Run the jar file (update with actual jar name)
+ENTRYPOINT ["java","-jar","target/GymDiaryAPI-0.0.1-SNAPSHOT.jar"]
